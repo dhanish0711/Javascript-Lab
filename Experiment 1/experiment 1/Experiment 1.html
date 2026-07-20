@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Experiment 1</title>
+    <link rel="stylesheet" href="Experiment 1.css">
+    <script>
+        function showWelcome(){
+            let name = document.getElementById("name").value;
+            let age = document.getElementById("age").value;
+
+            document.getElementById("output").innerHTML =
+             "<h2>Welcome, " + name + "!</h2>" +
+             "<p>You are " + age + " years old.</p>";
+
+            console.log("User Name: " + name);
+            console.info("User Age: " + age);
+            console.warn("This is a warning message.");
+            console.error("This is an error message(demo purpose).");
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card card-form">
+            <h2>User Details</h2>
+            <div class="form-group">
+                <label for="name">Enter Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="age">Enter Age</label>
+                <input type="number" id="age" placeholder="Enter your age">
+            </div>
+            <button onclick="showWelcome();greet();">
+                Submit your Information
+            </button>
+            <div id="output"></div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Experiment 1.js"></script>
+</body>
+</html>
