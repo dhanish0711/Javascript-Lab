@@ -1,0 +1,111 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 40px 20px;
+    color: black;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    padding: 35px 25px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: firebrick;
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+header h2 {
+    color: crimson;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.section-card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.section-card:hover {
+    border-color: gray;
+}
+
+.section-card h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: firebrick;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.section-card p {
+    font-size: 15px;
+    color: black;
+    margin: 0 0 15px 0;
+}
+
+.section-card p:last-child {
+    margin-bottom: 0;
+}
+
+.section-card ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.section-card li {
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    border-left: 3px solid crimson;
+}
+
+.section-card li:last-child {
+    margin-bottom: 0;
+}
+
+.section-card li strong {
+    color: firebrick;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    transition: background-color 0.2s;
+}
+
+.link-button:hover {
+    background-color: firebrick;
+}
