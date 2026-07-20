@@ -1,0 +1,321 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 36px;
+}
+
+header p {
+    color: gray;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 960px;
+}
+
+.products-section {
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    width: 29%;
+    margin: 1.5%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.product-card:hover {
+    background-color: aliceblue;
+    border-color: gray;
+}
+
+.product-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+}
+
+.product-price {
+    color: royalblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 0;
+    letter-spacing: -0.5px;
+}
+
+.cart-section {
+    border-top: 1px solid lightgray;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: black;
+    font-size: 14px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border-color: gray;
+    outline: none;
+}
+
+.bill-breakdown {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.bill-row {
+    margin-bottom: 10px;
+}
+
+.bill-row span {
+    display: inline-block;
+    width: 49%;
+}
+
+.bill-row span:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+.bill-row.total {
+    font-weight: bold;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.bill-row.total span:last-child {
+    color: forestgreen;
+}
+
+.btn-checkout {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+    letter-spacing: -0.5px;
+}
+
+.btn-checkout:hover {
+    background-color: darkgreen;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 100;
+}
+
+.modal-overlay.open {
+    display: block;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 8% auto;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 85%;
+    max-width: 480px;
+}
+
+.receipt-box {
+    border: 1px dashed black;
+    padding: 20px;
+    background-color: white;
+    font-family: monospace;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.receipt-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 8px;
+}
+
+.receipt-row {
+    margin-bottom: 6px;
+}
+
+.receipt-row span {
+    display: inline-block;
+    width: 49%;
+}
+
+.receipt-row span:last-child {
+    text-align: right;
+}
+
+.receipt-divider {
+    border-bottom: 1px dashed black;
+    margin: 12px 0;
+}
+
+.modal-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+.btn-close {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    color: black;
+}
+
+.btn-close:hover {
+    background-color: gray;
+}
+
+.btn-print {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-print:hover {
+    background-color: navy;
+}
+
+@media print {
+    body > :not(.modal-overlay) {
+        display: none;
+    }
+    .modal-overlay {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .modal-content {
+        border: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .modal-actions {
+        display: none;
+    }
+}
