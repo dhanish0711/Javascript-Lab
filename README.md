@@ -21,26 +21,29 @@ A structured compilation of JavaScript experiments and case studies completed du
 
 ## 🔍 Overview
 
-| Section | Topic | Key Concepts | Files |
-| :--- | :--- | :--- | :--- |
-| **Experiment 1** | Demonstration of Basics of JavaScript Program | Console logging, script tags, event handlers | [Files Folder](file:///c:/Users/Admin/Downloads/Javascript/Experiment%201/experiment%201) |
-| **Case Study 1** | College Department Student Portal | Alert boxes, page linking, basic DOM updates | [Files Folder](file:///c:/Users/Admin/Downloads/Javascript/Experiment%201/case%20study%201) |
-| **Experiment 2** | Data Types & Variables Demonstration | `let`/`var`/`const`, primitives, coercion | [Files Folder](file:///c:/Users/Admin/Downloads/Javascript/Experiment%202/experiment%202) |
-| **Case Study 2** | ShopEase E-commerce Bill Calculator | DOM manipulation, forms, calculation logic, math | [Files Folder](file:///c:/Users/Admin/Downloads/Javascript/Experiment%202/case%20study%202) |
+| Section | Topic | Key Concepts | Files / Folder | Reports (PDF) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Experiment 1** | Demonstration of Basics of JavaScript Program | Console logging, script tags, event handlers | [Files Folder](./Experiment%201/experiment%201) | [Experiment 1 Report](./Experiment%201/experiment%201/Experiment_1_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Case Study 1** | College Department Student Portal | Alert boxes, page linking, basic DOM updates | [Files Folder](./Experiment%201/case%20study%201) | [Case Study 1 Report](./Experiment%201/case%20study%201/Case_Study_1_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Experiment 2** | Data Types & Variables Demonstration | `let`/`var`/`const`, primitives, coercion | [Files Folder](./Experiment%202/experiment%202) | [Experiment 2 Report](./Experiment%202/experiment%202/Experiment_2_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Case Study 2** | ShopEase E-commerce Bill Calculator | DOM manipulation, forms, calculation logic, math | [Files Folder](./Experiment%202/case%20study%202) | [Case Study 2 Report](./Experiment%202/case%20study%202/Case_Study_2_24070521020_Dhanish%20Ladwani_A1.pdf) |
 
 ---
 
 ## 📖 Syllabus & Core Topics
 
-### 📂 [Experiment 1: Basics of JavaScript](file:///c:/Users/Admin/Downloads/Javascript/Experiment%201/experiment%201)
+### 📂 [Experiment 1: Basics of JavaScript](./Experiment%201/experiment%201)
 * **Goal:** Understand what JavaScript is, its role in modern web development, and how to debug in browser environments.
 * **Core Learnings:**
   * Inline, internal, and external script integration.
   * Utilizing `console.log()`, `console.info()`, `console.warn()`, and `console.error()`.
 * **Associated Case Study:** 
   * Link a custom college department page to a student information view and show a greeting alert box containing *"Welcome to SIT Nagpur"*.
+* **Softcopies / Reports:**
+  * 📄 [Experiment 1 PDF Report](./Experiment%201/experiment%201/Experiment_1_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 1 PDF Report](./Experiment%201/case%20study%201/Case_Study_1_24070521020_Dhanish%20Ladwani_A1.pdf)
 
-### 📂 [Experiment 2: Data Types & Variables](file:///c:/Users/Admin/Downloads/Javascript/Experiment%202/experiment%202)
+### 📂 [Experiment 2: Data Types & Variables](./Experiment%202/experiment%202)
 * **Goal:** Learn JavaScript's dynamic typing system, scope rules, and data conversions.
 * **Core Learnings:**
   * Primitive data types: `string`, `number`, `boolean`, `undefined`, `null`.
@@ -48,6 +51,9 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Implicit type coercion vs. explicit type conversion.
 * **Associated Case Study (ShopEase):**
   * Develop a robust, interactive e-commerce product grid to dynamically calculate customer invoices (including shipping rates and coupon code discounts).
+* **Softcopies / Reports:**
+  * 📄 [Experiment 2 PDF Report](./Experiment%202/experiment%202/Experiment_2_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 2 PDF Report](./Experiment%202/case%20study%202/Case_Study_2_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ---
 
@@ -59,22 +65,26 @@ Javascript-Lab/
 │   ├── experiment 1/                       # Core lab exercise files
 │   │   ├── Experiment 1.html
 │   │   ├── Experiment 1.css
-│   │   └── Experiment 1.js
+│   │   ├── Experiment 1.js
+│   │   └── Experiment_1_24070521020_Dhanish Ladwani_A1.pdf
 │   └── case study 1/                       # College Portal case study
 │       ├── Case Study 1.html
 │       ├── Case Study 1.css
 │       ├── Case Study 1.js
-│       └── Case Study 1 Student.html
+│       ├── Case Study 1 Student.html
+│       └── Case_Study_1_24070521020_Dhanish Ladwani_A1.pdf
 │
 ├── Experiment 2/
 │   ├── experiment 2/                       # Data type analysis files
 │   │   ├── Experiment 2.html
 │   │   ├── Experiment 2.css
-│   │   └── Experiment 2.js
+│   │   ├── Experiment 2.js
+│   │   └── Experiment_2_24070521020_Dhanish Ladwani_A1.pdf
 │   └── case study 2/                       # ShopEase billing implementation
 │       ├── Case Study 2.html
 │       ├── Case Study 2.css
-│       └── Case Study 2.js
+│       ├── Case Study 2.js
+│       └── Case_Study_2_24070521020_Dhanish Ladwani_A1.pdf
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
