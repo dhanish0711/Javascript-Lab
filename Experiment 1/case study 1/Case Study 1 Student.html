@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT Nagpur - Student Registration</title>
+    <link rel="stylesheet" href="Case Study 1.css">
+</head>
+<body>
+
+    <div class="container" style="max-width: 500px;">
+        <header>
+            <h1>SIT Nagpur</h1>
+            <h2>CSE Student Information Form</h2>
+        </header>
+
+        <section class="section-card">
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="studentName" style="display: block; font-weight: bold; margin-bottom: 5px;">Full Name</label>
+                <input type="text" id="studentName" placeholder="Enter full name" style="width: 100%; padding: 8px; border: 1px solid gray; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="prn" style="display: block; font-weight: bold; margin-bottom: 5px;">PRN (Permanent Registration Number)</label>
+                <input type="text" id="prn" placeholder="Enter PRN" style="width: 100%; padding: 8px; border: 1px solid gray; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email Address</label>
+                <input type="email" id="email" placeholder="Enter email" style="width: 100%; padding: 8px; border: 1px solid gray; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="specialization" style="display: block; font-weight: bold; margin-bottom: 5px;">Honors Specialization</label>
+                <select id="specialization" style="width: 100%; padding: 8px; border: 1px solid gray; border-radius: 4px; box-sizing: border-box;">
+                    <option>Artificial Intelligence & Machine Learning</option>
+                    <option>Data Science</option>
+                    <option>Cybersecurity</option>
+                    <option>Internet of Things (IoT)</option>
+                    <option>Blockchain Technology</option>
+                </select>
+            </div>
+
+            <button id="submitBtn" style="width: 100%; padding: 10px; background-color: crimson; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">
+                Submit Information
+            </button>
+
+            <div id="output" style="display: none; margin-top: 20px; padding: 15px; background-color: whitesmoke; border: 1px solid lightgray; border-radius: 4px;"></div>
+        </section>
+
+        <div style="text-align: center; margin-top: 15px;">
+            <a href="Case Study 1.html" style="color: crimson; text-decoration: none; font-size: 14px;">&larr; Back to Department Page</a>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Case Study 1.js"></script>
+</body>
+</html>
