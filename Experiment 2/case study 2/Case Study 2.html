@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="Case Study 2.css">
+</head>
+<body>
+
+    <header>
+        <h1>ShopEase</h1>
+        <p>Browse our catalog, enter quantities, and generate your bill instantly.</p>
+    </header>
+
+    <div class="container">
+        <section class="products-section">
+            <h2>Product Catalog</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="../../assets/headphone.png" alt="Wireless Headphones" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Wireless+Headphones'">
+                    <div class="product-name">Wireless Headphones</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Premium noise-canceling headphones with spatial audio, extra-cushioned earcups, and up to 40 hours of continuous playback.</div>
+                    <div class="product-price">Rs. 1499.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyHeadphones">Quantity</label>
+                        <input type="number" id="qtyHeadphones" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/watch.png" alt="Smart Watch" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Smart+Watch'">
+                    <div class="product-name">Smart Watch</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Smart wearable tracking heart rate, sleep cycles, steps, and blood oxygen. Features a waterproof design and 1.4-inch AMOLED display.</div>
+                    <div class="product-price">Rs. 2499.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyWatch">Quantity</label>
+                        <input type="number" id="qtyWatch" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/keyboard.png" alt="Mechanical Keyboard" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Mechanical+Keyboard'">
+                    <div class="product-name">Mechanical Keyboard</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Tactile blue switches with RGB customizable lighting. Perfect for rapid typing or gaming sessions with key durability of 50M clicks.</div>
+                    <div class="product-price">Rs. 1999.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyKeyboard">Quantity</label>
+                        <input type="number" id="qtyKeyboard" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/mouse.png" alt="Wireless Mouse" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Wireless+Mouse'">
+                    <div class="product-name">Wireless Mouse</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Comfortable ergonomic optical mouse with quiet click buttons, selectable DPI speeds, and up to 12 months battery life.</div>
+                    <div class="product-price">Rs. 699.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyMouse">Quantity</label>
+                        <input type="number" id="qtyMouse" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/speaker.png" alt="Bluetooth Speaker" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Bluetooth+Speaker'">
+                    <div class="product-name">Bluetooth Speaker</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Rugged portable speaker with rich acoustic sound, waterproof casing, dual subwoofers, and integrated microphone.</div>
+                    <div class="product-price">Rs. 999.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtySpeaker">Quantity</label>
+                        <input type="number" id="qtySpeaker" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/earbuds.png" alt="Wireless Earbuds" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Wireless+Earbuds'">
+                    <div class="product-name">Wireless Earbuds</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Compact in-ear headphones with touch controls, instant pairing, sweat resistance, and compact magnetic charging case.</div>
+                    <div class="product-price">Rs. 1299.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyEarbuds">Quantity</label>
+                        <input type="number" id="qtyEarbuds" value="0" min="0">
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../../assets/stand.png" alt="Laptop Stand" class="product-img" onerror="this.src='https://via.placeholder.com/200x150?text=Laptop+Stand'">
+                    <div class="product-name">Laptop Stand</div>
+                    <div style="font-size: 12px; color: gray; margin: 8px 0; min-height: 50px;">Adjustable aluminum stand offering six levels of height adjustment to reduce neck strain. Keeps your computer cool with ventilation slots.</div>
+                    <div class="product-price">Rs. 799.00</div>
+                    <div class="form-group" style="margin-top: 10px;">
+                        <label for="qtyStand">Quantity</label>
+                        <input type="number" id="qtyStand" value="0" min="0">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart-section">
+            <h2>Billing Details</h2>
+            
+            <div class="form-group">
+                <label for="customerName">Customer Name</label>
+                <input type="text" id="customerName" placeholder="Enter name">
+            </div>
+
+            <div class="form-group">
+                <label for="shippingSelect">Shipping Option</label>
+                <select id="shippingSelect">
+                    <option value="0">Standard Shipping (FREE)</option>
+                    <option value="150">Express Shipping (Rs. 150.00)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="promoCode">Promo Code (WELCOME10, FESTIVE15, SAVE20, SUPER30)</label>
+                <input type="text" id="promoCode" placeholder="Enter code">
+            </div>
+
+            <button class="btn-checkout" id="billBtn">Generate Bill / Checkout</button>
+        </section>
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <div id="receiptModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div id="receiptBox" class="receipt-box">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-actions">
+                    <button class="btn-modal btn-close" id="closeBtn">Close</button>
+                    <button class="btn-modal btn-print" id="printBtn">Print Receipt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Case Study 2.js"></script>
+</body>
+</html>
