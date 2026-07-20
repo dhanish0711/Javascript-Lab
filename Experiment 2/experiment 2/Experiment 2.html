@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Billing Calculator</title>
+    <link rel="stylesheet" href="Experiment 2.css">
+</head>
+<body>
+
+    <h1>Billing Calculator</h1>
+
+    <div class="container">
+
+        <label>Customer Name</label>
+        <input type="text" id="name">
+
+        <label>Product Name</label>
+        <input type="text" id="product">
+
+        <label>Price Per Item (Rs.)</label>
+        <input type="number" id="price">
+
+        <label>Discount (%)</label>
+        <input type="number" id="discount" value="0">
+
+        <label>Quantity</label>
+        <input type="number" id="quantity">
+
+        <button onclick="calculateBill()">Generate Bill</button>
+
+        <div id="output">
+
+            <h2>Billing Details</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Shop Name</th>
+                    <td id="shop"></td>
+                </tr>
+                <tr>
+                    <th>Customer Name</th>
+                    <td id="customer"></td>
+                </tr>
+                <tr>
+                    <th>Product Name</th>
+                    <td id="productName"></td>
+                </tr>
+                <tr>
+                    <th>Price Per Item</th>
+                    <td id="priceItem"></td>
+                </tr>
+                <tr>
+                    <th>Quantity</th>
+                    <td id="qty"></td>
+                </tr>
+                <tr>
+                    <th>Subtotal</th>
+                    <td id="subtotal"></td>
+                </tr>
+                <tr>
+                    <th>Discount</th>
+                    <td id="discountValue"></td>
+                </tr>
+                <tr>
+                    <th>Discount Amount</th>
+                    <td id="discountAmount"></td>
+                </tr>
+                <tr>
+                    <th>Amount After Discount</th>
+                    <td id="afterDiscount"></td>
+                </tr>
+                <tr>
+                    <th>GST Rate</th>
+                    <td>18%</td>
+                </tr>
+                <tr>
+                    <th>GST Amount</th>
+                    <td id="gst"></td>
+                </tr>
+                <tr>
+                    <th>Total Amount</th>
+                    <td id="total"></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; padding-top: 15px;">
+        Made by Dhanish Ladwani PRN - 24070521020
+    </footer>
+
+    <script src="Experiment 2.js"></script>
+
+</body>
+</html>
