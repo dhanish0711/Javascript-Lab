@@ -1,0 +1,158 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px lightgray;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: dimgray;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.btn {
+    padding: 12px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.btn-secondary {
+    padding: 12px;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-secondary:hover {
+    background-color: gray;
+}
+
+#report {
+    display: none;
+    margin-top: 20px;
+}
+
+#report.visible {
+    display: block;
+}
+
+.report-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.report-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+}
+
+.badge {
+    font-weight: bold;
+}
+
+.status-pass {
+    color: green;
+}
+
+.status-fail {
+    color: red;
+}
+
+.grade-aplus, .grade-a, .grade-b, .grade-c, .grade-d, .grade-e {
+    color: green;
+}
+
+.grade-f {
+    color: red;
+}
+
+.report-view {
+    background-color: whitesmoke;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
