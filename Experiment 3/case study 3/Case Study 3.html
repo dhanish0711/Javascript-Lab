@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Portal</title>
+    <link rel="stylesheet" href="Case Study 3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Registration</h2>
+            <form id="registerForm" onsubmit="handleRegister(event)">
+                <div class="form-group">
+                    <label for="registerUser">Username</label>
+                    <input type="text" id="registerUser" placeholder="Choose a username" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="text" id="registerEmail" placeholder="Enter email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" placeholder="Create strong password" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerConfirmPassword">Confirm Password</label>
+                    <input type="password" id="registerConfirmPassword" placeholder="Confirm your password" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="showRegPassword" onclick="toggleRegVisibility()">
+                    <label for="showRegPassword">Show Passwords</label>
+                </div>
+                <input type="submit" class="btn" value="Register">
+            </form>
+
+            <div id="message"></div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Case Study 3.js"></script>
+</body>
+
+</html>
