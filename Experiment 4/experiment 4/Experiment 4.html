@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="Experiment 4.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Palindrome Checker</h2>
+            <form id="palindromeForm" onsubmit="event.preventDefault(); checkPalindrome();">
+                <div class="form-group">
+                    <label for="word">Enter a String</label>
+                    <input type="text" id="word" placeholder="Enter word or text">
+                </div>
+
+                <input type="button" class="btn" value="Check Palindrome" onclick="checkPalindrome()">
+            </form>
+
+            <div id="result"></div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Experiment 4.js"></script>
+</body>
+
+</html>
