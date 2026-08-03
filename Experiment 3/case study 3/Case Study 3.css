@@ -1,0 +1,118 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px lightgray;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+.checkbox-group input {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: dimgray;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.btn {
+    padding: 12px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+#message.error {
+    background-color: mistyrose;
+    color: red;
+    border: 1px solid tomato;
+}
+
+#message.success {
+    background-color: honeydew;
+    color: green;
+    border: 1px solid limegreen;
+}
