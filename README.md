@@ -27,6 +27,10 @@ A structured compilation of JavaScript experiments and case studies completed du
 | **Case Study 1** | College Department Student Portal | Alert boxes, page linking, basic DOM updates | [Files Folder](./Experiment%201/case%20study%201) | [Case Study 1 Report](./Experiment%201/case%20study%201/Case_Study_1_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Experiment 2** | Data Types & Variables Demonstration | `let`/`var`/`const`, primitives, coercion | [Files Folder](./Experiment%202/experiment%202) | [Experiment 2 Report](./Experiment%202/experiment%202/Experiment_2_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Case Study 2** | ShopEase E-commerce Bill Calculator | DOM manipulation, forms, calculation logic, math | [Files Folder](./Experiment%202/case%20study%202) | [Case Study 2 Report](./Experiment%202/case%20study%202/Case_Study_2_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Experiment 3** | Student Grading System | Control structures, form validation, conditional statements | [Files Folder](./Experiment%203/experiment%203) | *Pending* |
+| **Case Study 3** | Password Validation Portal | Conditional statements, loops, password criteria validation | [Files Folder](./Experiment%203/case%20study%203) | *Pending* |
+| **Experiment 4** | Palindrome Checker | Function types, scope, closures, try-catch, string reversal | [Files Folder](./Experiment%204/experiment%4) | *Pending* |
+| **Case Study 4** | Vehicle Registration Validator | Form validation, substring parsing, character checking | [Files Folder](./Experiment%204/case%20study%204) | *Pending* |
 
 ---
 
@@ -41,7 +45,7 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Link a custom college department page to a student information view and show a greeting alert box containing *"Welcome to SIT Nagpur"*.
 * **Softcopies / Reports:**
   * 📄 [Experiment 1 PDF Report](./Experiment%201/experiment%201/Experiment_1_24070521020_Dhanish%20Ladwani_A1.pdf)
-  * 📄 [Case Study 1 PDF Report](./Experiment%201/case%20study%201/Case_Study_1_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 1 PDF Report](./Experiment%201/case%20study%1/Case_Study_1_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 2: Data Types & Variables](./Experiment%202/experiment%202)
 * **Goal:** Learn JavaScript's dynamic typing system, scope rules, and data conversions.
@@ -54,6 +58,22 @@ A structured compilation of JavaScript experiments and case studies completed du
 * **Softcopies / Reports:**
   * 📄 [Experiment 2 PDF Report](./Experiment%202/experiment%202/Experiment_2_24070521020_Dhanish%20Ladwani_A1.pdf)
   * 📄 [Case Study 2 PDF Report](./Experiment%202/case%20study%202/Case_Study_2_24070521020_Dhanish%20Ladwani_A1.pdf)
+
+### 📂 [Experiment 3: Control Structures & Grading System](./Experiment%203/experiment%203)
+* **Goal:** Implement control structures and form validation; create a grading system based on user-entered marks.
+* **Core Learnings:**
+  * Using `if...else` conditional logic for decision making and grade calculation.
+  * Validating numeric inputs and dynamically displaying pass/fail grade reports.
+* **Associated Case Study:**
+  * Develop a web application using HTML and JavaScript to validate a Password using conditional statements and loops.
+
+### 📂 [Experiment 4: Functions & String Manipulation](./Experiment%204/experiment%204)
+* **Goal:** Use function types, scope, and closures; apply try-catch; build a palindrome checker.
+* **Core Learnings:**
+  * Function types, nested function scope, closures (`message()()`), and custom string reversal logic.
+  * Exception handling with `try-catch` blocks and character-by-character validation loop.
+* **Associated Case Study:**
+  * Develop a web application using HTML and JavaScript to validate a vehicle registration number.
 
 ---
 
@@ -85,6 +105,26 @@ Javascript-Lab/
 │       ├── Case Study 2.css
 │       ├── Case Study 2.js
 │       └── Case_Study_2_24070521020_Dhanish Ladwani_A1.pdf
+│
+├── Experiment 3/
+│   ├── experiment 3/                       # Student grading system files
+│   │   ├── Experiment 3.html
+│   │   ├── Experiment 3.css
+│   │   └── Experiment 3.js
+│   └── case study 3/                       # Registration portal files
+│       ├── Case Study 3.html
+│       ├── Case Study 3.css
+│       └── Case Study 3.js
+│
+├── Experiment 4/
+│   ├── experiment 4/                       # Palindrome checker files
+│   │   ├── Experiment 4.html
+│   │   ├── Experiment 4.css
+│   │   └── Experiment 4.js
+│   └── case study 4/                       # Vehicle registration validator files
+│       ├── Case Study 4.html
+│       ├── Case Study 4.css
+│       └── Case Study 4.js
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
