@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Calculator</title>
+    <link rel="stylesheet" href="Experiment 5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Shopping Cart Calculator</h2>
+        
+        <div class="input-group">
+            <input type="text" id="name" placeholder="Product Name">
+            <input type="number" id="price" placeholder="Price">
+            <input type="number" id="qty" placeholder="Quantity">
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="cartTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="result-card">
+            <div id="result" class="totals-summary">
+                <p><b>Total Amount :</b> 0.00</p>
+                <p><b>Discount :</b> 0.00</p>
+                <p><b>Final Amount :</b> 0.00</p>
+            </div>
+
+            <div class="lists-container">
+                <div class="summary-section">
+                    <h3>Item Summary</h3>
+                    <ul id="summary"></ul>
+                </div>
+                <div class="expensive-section">
+                    <h3>Expensive Products (Price > 1000)</h3>
+                    <ul id="expensive"></ul>
+                </div>
+            </div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Experiment 5.js"></script>
+</body>
+</html>
