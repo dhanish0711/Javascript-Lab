@@ -31,10 +31,10 @@ A structured compilation of JavaScript experiments and case studies completed du
 | **Case Study 3** | Password Validation Portal | Conditional statements, loops, password criteria validation | [Files Folder](./Experiment%203/case%20study%203) | [Case Study 3 Report](./Experiment%203/case%20study%203/Case_Study_3_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Experiment 4** | Palindrome Checker | Function types, scope, closures, try-catch, string reversal | [Files Folder](./Experiment%204/experiment%204) | [Experiment 4 Report](./Experiment%204/experiment%204/Experiment_4_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Case Study 4** | Vehicle Registration Validator | Form validation, substring parsing, character checking | [Files Folder](./Experiment%204/case%20study%204) | [Case Study 4 Report](./Experiment%204/case%20study%204/Case_Study_4_24070521020_Dhanish%20Ladwani_A1.pdf) |
-| **Experiment 5** | Shopping Cart Calculator | Array methods, objects, DOM manipulation | [Files Folder](./Experiment%205/experiment%205) | *Pending* |
-| **Case Study 5** | Array Min & Max Finder | Array iteration, min/max finding logic | [Files Folder](./Experiment%205/case%20study%205) | *Pending* |
-| **Experiment 6** | String Methods & Regular Expressions | Email validation, data extraction, regex, text analysis | [Files Folder](./Experiment%206/experiment%206) | *Pending* |
-| **Case Study 6** | String Reverser Portal | String reversal methods, palindrome checking, text analysis | [Files Folder](./Experiment%206/case%20study%206) | *Pending* |
+| **Experiment 5** | Shopping Cart Calculator | Array methods, objects, DOM manipulation | [Files Folder](./Experiment%205/experiment%205) | [Experiment 5 Report](./Experiment%205/experiment%205/Experiment_5_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Case Study 5** | Array Min & Max Finder | Array iteration, min/max finding logic | [Files Folder](./Experiment%205/case%20study%205) | [Case Study 5 Report](./Experiment%205/case%20study%205/Case_Study_5_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Experiment 6** | String Methods & Regular Expressions | Email validation, data extraction, regex, text analysis | [Files Folder](./Experiment%206/experiment%206) | [Experiment 6 Report](./Experiment%206/experiment%206/Experiment_6_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Case Study 6** | String Reverser Portal | String reversal methods, palindrome checking, text analysis | [Files Folder](./Experiment%206/case%20study%206) | [Case Study 6 Report](./Experiment%206/case%20study%206/Case_Study_6_24070521020_Dhanish%20Ladwani_A1.pdf) |
 
 ---
 
@@ -72,7 +72,7 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Develop a web application using HTML and JavaScript to validate a Password using conditional statements and loops.
 * **Softcopies / Reports:**
   * 📄 [Experiment 3 PDF Report](./Experiment%203/experiment%203/Experiment_3_24070521020_Dhanish%20Ladwani_A1.pdf)
-  * 📄 [Case Study 3 PDF Report](./Experiment%203/case%20study%3/Case_Study_3_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 3 PDF Report](./Experiment%203/case%20study%203/Case_Study_3_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 4: Functions & String Manipulation](./Experiment%204/experiment%204)
 * **Goal:** Use function types, scope, and closures; apply try-catch; build a palindrome checker.
@@ -83,7 +83,7 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Develop a web application using HTML and JavaScript to validate a vehicle registration number.
 * **Softcopies / Reports:**
   * 📄 [Experiment 4 PDF Report](./Experiment%204/experiment%204/Experiment_4_24070521020_Dhanish%20Ladwani_A1.pdf)
-  * 📄 [Case Study 4 PDF Report](./Experiment%204/case%20study%4/Case_Study_4_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 4 PDF Report](./Experiment%204/case%20study%204/Case_Study_4_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 5: Shopping Cart Calculator](./Experiment%205/experiment%205)
 * **Goal:** Apply array methods and object handling; create a cart total calculator with discount logic.
@@ -93,6 +93,9 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Dynamic DOM rendering of table entries and calculations.
 * **Associated Case Study:**
   * Create an array of numbers and find the maximum and minimum value.
+* **Softcopies / Reports:**
+  * 📄 [Experiment 5 PDF Report](./Experiment%205/experiment%205/Experiment_5_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 5 PDF Report](./Experiment%205/case%20study%205/Case_Study_5_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 6: String Methods & Regular Expressions](./Experiment%206/experiment%206)
 * **Goal:** Use string functions and regex for email validation, data extraction, and text analysis.
@@ -102,6 +105,9 @@ A structured compilation of JavaScript experiments and case studies completed du
 * **Associated Case Studies:**
   1. Write a program to reverse a string.
   2. Write a program to count number of vowels in a paragraph.
+* **Softcopies / Reports:**
+  * 📄 [Experiment 6 PDF Report](./Experiment%206/experiment%206/Experiment_6_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 6 PDF Report](./Experiment%206/case%20study%206/Case_Study_6_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ---
 
@@ -162,20 +168,25 @@ Javascript-Lab/
 │   ├── experiment 5/                       # Shopping cart calculator files
 │   │   ├── Experiment 5.html
 │   │   ├── Experiment 5.css
-│   │   └── Experiment 5.js
+│   │   ├── Experiment 5.js
+│   │   └── Experiment_5_24070521020_Dhanish Ladwani_A1.pdf
 │   └── case study 5/                       # Array min & max finder files
 │       ├── Case Study 5.html
 │       ├── Case Study 5.css
-│       └── Case Study 5.js
+│       ├── Case Study 5.js
+│       └── Case_Study_5_24070521020_Dhanish Ladwani_A1.pdf
 │
 ├── Experiment 6/
 │   ├── experiment 6/                       # String methods & regex files
 │   │   ├── Experiment 6.html
 │   │   ├── Experiment 6.css
-│   │   └── Experiment 6.js
+│   │   ├── Experiment 6.js
+│   │   └── Experiment_6_24070521020_Dhanish Ladwani_A1.pdf
 │   └── case study 6/                       # String reverser portal files
 │       ├── Case Study 6.html
 │       ├── Case Study 6.css
+│       ├── Case Study 6.js
+│       └── Case_Study_6_24070521020_Dhanish Ladwani_A1.pdf
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
