@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: dimgray;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 1 1 140px;
+    min-width: 0;
+    padding: 10px 14px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: royalblue;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: royalblue;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.result-card {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.totals-summary p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.totals-summary p:nth-child(2) {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.totals-summary p:nth-child(3) {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lists-container {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+}
+
+h3 {
+    color: darkblue;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    color: dimgray;
+}
+
+
+
+
