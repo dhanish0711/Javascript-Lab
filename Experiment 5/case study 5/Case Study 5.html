@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Min & Max Finder</title>
+    <link rel="stylesheet" href="Case Study 5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Array Min & Max Finder</h2>
+
+        <div class="input-card">
+            <div class="input-group">
+                <input type="number" id="numberInput" placeholder="Enter a number">
+                <button class="btn btn-primary" onclick="addNumber()">Add Number</button>
+                <button class="btn btn-secondary" onclick="addRandomNumber()">Add Random</button>
+                <button class="btn btn-danger" onclick="resetArray()">Reset</button>
+            </div>
+        </div>
+
+        <div class="display-card">
+            <h3>Current Array</h3>
+            <div id="arrayDisplay" class="array-container">
+                <span class="empty-msg">Array is currently empty</span>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card max-card">
+                <div class="stat-label">Maximum Value</div>
+                <div id="maxValue" class="stat-value">-</div>
+            </div>
+            <div class="stat-card min-card">
+                <div class="stat-label">Minimum Value</div>
+                <div id="minValue" class="stat-value">-</div>
+            </div>
+            <div class="stat-card count-card">
+                <div class="stat-label">Total Elements</div>
+                <div id="totalCount" class="stat-value">0</div>
+            </div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Case Study 5.js"></script>
+</body>
+</html>
