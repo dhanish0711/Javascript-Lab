@@ -35,6 +35,8 @@ A structured compilation of JavaScript experiments and case studies completed du
 | **Case Study 5** | Array Min & Max Finder | Array iteration, min/max finding logic | [Files Folder](./Experiment%205/case%20study%205) | [Case Study 5 Report](./Experiment%205/case%20study%205/Case_Study_5_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Experiment 6** | String Methods & Regular Expressions | Email validation, data extraction, regex, text analysis | [Files Folder](./Experiment%206/experiment%206) | [Experiment 6 Report](./Experiment%206/experiment%206/Experiment_6_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Case Study 6** | String Reverser Portal | String reversal methods, palindrome checking, text analysis | [Files Folder](./Experiment%206/case%20study%206) | [Case Study 6 Report](./Experiment%206/case%20study%206/Case_Study_6_24070521020_Dhanish%20Ladwani_A1.pdf) |
+| **Experiment 7** | To-Do List Application | DOM traversal & updates, dynamic element creation, event handling | [Files Folder](./Experiment%207/experiment%207) | *Pending* |
+| **Case Study 7** | Comprehensive Registration Form Validator | Advanced form validation, regex constraints, DOM error handling | [Files Folder](./Experiment%207/case%20study%207) | *Pending* |
 
 ---
 
@@ -72,7 +74,7 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Develop a web application using HTML and JavaScript to validate a Password using conditional statements and loops.
 * **Softcopies / Reports:**
   * 📄 [Experiment 3 PDF Report](./Experiment%203/experiment%203/Experiment_3_24070521020_Dhanish%20Ladwani_A1.pdf)
-  * 📄 [Case Study 3 PDF Report](./Experiment%203/case%20study%203/Case_Study_3_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 3 PDF Report](./Experiment%203/case%20study%3/Case_Study_3_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 4: Functions & String Manipulation](./Experiment%204/experiment%204)
 * **Goal:** Use function types, scope, and closures; apply try-catch; build a palindrome checker.
@@ -83,7 +85,7 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Develop a web application using HTML and JavaScript to validate a vehicle registration number.
 * **Softcopies / Reports:**
   * 📄 [Experiment 4 PDF Report](./Experiment%204/experiment%204/Experiment_4_24070521020_Dhanish%20Ladwani_A1.pdf)
-  * 📄 [Case Study 4 PDF Report](./Experiment%204/case%20study%204/Case_Study_4_24070521020_Dhanish%20Ladwani_A1.pdf)
+  * 📄 [Case Study 4 PDF Report](./Experiment%204/case%20study%4/Case_Study_4_24070521020_Dhanish%20Ladwani_A1.pdf)
 
 ### 📂 [Experiment 5: Shopping Cart Calculator](./Experiment%205/experiment%205)
 * **Goal:** Apply array methods and object handling; create a cart total calculator with discount logic.
@@ -108,6 +110,14 @@ A structured compilation of JavaScript experiments and case studies completed du
 * **Softcopies / Reports:**
   * 📄 [Experiment 6 PDF Report](./Experiment%206/experiment%206/Experiment_6_24070521020_Dhanish%20Ladwani_A1.pdf)
   * 📄 [Case Study 6 PDF Report](./Experiment%206/case%20study%206/Case_Study_6_24070521020_Dhanish%20Ladwani_A1.pdf)
+
+### 📂 [Experiment 7: DOM Traversal & To-Do List Application](./Experiment%207/experiment%207)
+* **Goal:** Perform DOM traversal and updates; develop a to-do list app with add, edit, and delete features.
+* **Core Learnings:**
+  * Dynamic creation and appending of DOM elements (`createElement`, `appendChild`, `removeChild`).
+  * Interactive event handling for adding tasks, inline editing via prompts, and task removal.
+* **Associated Case Study:**
+  * Develop a comprehensive registration form with real-time field validation, date dropdown generators, and interactive error styling.
 
 ---
 
@@ -187,6 +197,16 @@ Javascript-Lab/
 │       ├── Case Study 6.css
 │       ├── Case Study 6.js
 │       └── Case_Study_6_24070521020_Dhanish Ladwani_A1.pdf
+│
+├── Experiment 7/
+│   ├── experiment 7/                       # To-Do list application files
+│   │   ├── Experiment 7.html
+│   │   ├── Experiment 7.css
+│   │   └── Experiment 7.js
+│   └── case study 7/                       # Registration form validator files
+│       ├── Case Study 7.html
+│       ├── Case Study 7.css
+│       └── Case Study 7.js
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
