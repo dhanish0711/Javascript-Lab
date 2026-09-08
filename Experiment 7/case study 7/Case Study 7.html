@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Case Study</title>
+    <link rel="stylesheet" href="Case Study 7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Case Study</h2>
+
+        <form id="registrationForm" onsubmit="return validateForm(event)">
+            <div class="mandatory-note">*Mandatory to fill</div>
+
+            <div class="form-row">
+                <label for="firstname">Firstname:</label>
+                <div class="input-container">
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="firstnameError"></div>
+
+            <div class="form-row">
+                <label for="lastname">Lastname:</label>
+                <div class="input-container">
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter last name">
+                </div>
+            </div>
+            <div class="error-msg" id="lastnameError"></div>
+
+            <div class="form-row">
+                <label>Birthday:</label>
+                <div class="input-container dob-group">
+                    <select id="dobDay" name="dobDay">
+                        <option value="">Day</option>
+                    </select>
+                    <select id="dobMonth" name="dobMonth">
+                        <option value="">Month</option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Apr</option>
+                        <option value="5">May</option>
+                        <option value="6">Jun</option>
+                        <option value="7">Jul</option>
+                        <option value="8">Aug</option>
+                        <option value="9">Sep</option>
+                        <option value="10">Oct</option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dec</option>
+                    </select>
+                    <select id="dobYear" name="dobYear">
+                        <option value="">Year</option>
+                    </select>
+                </div>
+            </div>
+            <div class="error-msg" id="dobError"></div>
+
+            <div class="form-row">
+                <label for="username">Username:</label>
+                <div class="input-container">
+                    <input type="text" id="username" name="username" placeholder="Enter username">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="usernameError"></div>
+
+            <div class="form-row">
+                <label for="email">E-mail:</label>
+                <div class="input-container">
+                    <input type="email" id="email" name="email" placeholder="Enter email address">
+                </div>
+            </div>
+            <div class="error-msg" id="emailError"></div>
+
+            <div class="form-row">
+                <label for="website">Website:</label>
+                <div class="input-container">
+                    <input type="url" id="website" name="website" placeholder="https://example.com">
+                </div>
+            </div>
+            <div class="error-msg" id="websiteError"></div>
+
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <div class="input-container">
+                    <input type="password" id="password" name="password" placeholder="Enter password">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="passwordError"></div>
+
+            <div class="form-row">
+                <label for="rePassword">Re-password:</label>
+                <div class="input-container">
+                    <input type="password" id="rePassword" name="rePassword" placeholder="Confirm password">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="rePasswordError"></div>
+
+            <div class="checkbox-row">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the terms & conditions.</label>
+            </div>
+            <div class="error-msg" id="termsError"></div>
+
+            <div class="button-row">
+                <button type="submit" id="signUpBtn">Sign up</button>
+            </div>
+
+            <div id="successMsg" class="success-msg"></div>
+        </form>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Case Study 7.js"></script>
+</body>
+</html>
