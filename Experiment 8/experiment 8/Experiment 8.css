@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 560px;
+    background-color: white;
+    padding: 35px 40px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.mandatory-note {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-row label {
+    width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.input-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    background-color: white;
+    transition: border-color 0.2s;
+}
+
+.input-container input:focus,
+.input-container select:focus {
+    border-color: royalblue;
+}
+
+.required-star {
+    color: red;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    user-select: none;
+}
+
+.error-msg {
+    color: red;
+    font-size: 12px;
+    margin-left: 140px;
+    margin-bottom: 8px;
+    min-height: 14px;
+}
+
+.button-row {
+    margin-top: 18px;
+}
+
+button {
+    padding: 10px 24px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.success-msg {
+    display: none;
+    margin-top: 20px;
+    padding: 12px 16px;
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 1px solid green;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
