@@ -37,6 +37,8 @@ A structured compilation of JavaScript experiments and case studies completed du
 | **Case Study 6** | String Reverser Portal | String reversal methods, palindrome checking, text analysis | [Files Folder](./Experiment%206/case%20study%206) | [Case Study 6 Report](./Experiment%206/case%20study%206/Case_Study_6_24070521020_Dhanish%20Ladwani_A1.pdf) |
 | **Experiment 7** | To-Do List Application | DOM traversal & updates, dynamic element creation, event handling | [Files Folder](./Experiment%207/experiment%207) | *Pending* |
 | **Case Study 7** | Comprehensive Registration Form Validator | Advanced form validation, regex constraints, DOM error handling | [Files Folder](./Experiment%207/case%20study%207) | *Pending* |
+| **Experiment 8** | Access & Validate Form Fields Using Regex | Regex validation, live input checks, gym admission form | [Files Folder](./Experiment%208/experiment%208) | *Pending* |
+| **Case Study 8** | Gym Admission Registration Form | Form validation, regex patterns, event handling | [Files Folder](./Experiment%208/case%20study%208) | *Pending* |
 
 ---
 
@@ -118,6 +120,15 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Interactive event handling for adding tasks, inline editing via prompts, and task removal.
 * **Associated Case Study:**
   * Develop a comprehensive registration form with real-time field validation, date dropdown generators, and interactive error styling.
+
+### 📂 [Experiment 8: Access & Validate Form Fields Using Regex](./Experiment%208/experiment%208)
+* **Goal:** Access and validate form fields using regex; design a gym admission form with live input checks.
+* **Core Learnings:**
+  * Regular expressions (`RegExp`) for pattern matching on strings (names, email, phone, age, weight, dates).
+  * Real-time field validation using `input`, `blur`, and `change` event listeners.
+  * Dynamically providing visual feedback (error states, green valid cues, and warning tooltips).
+* **Associated Case Study:**
+  * Design a registration form for gym admission and use the appropriate form validation and events of JavaScript.
 
 ---
 
@@ -207,6 +218,16 @@ Javascript-Lab/
 │       ├── Case Study 7.html
 │       ├── Case Study 7.css
 │       └── Case Study 7.js
+│
+├── Experiment 8/
+│   ├── experiment 8/                       # Gym admission form with regex validation files
+│   │   ├── Experiment 8.html
+│   │   ├── Experiment 8.css
+│   │   └── Experiment 8.js
+│   └── case study 8/                       # Gym registration form case study files
+│       ├── Case Study 8.html
+│       ├── Case Study 8.css
+│       └── Case Study 8.js
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
