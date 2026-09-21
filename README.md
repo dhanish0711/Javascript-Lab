@@ -39,6 +39,8 @@ A structured compilation of JavaScript experiments and case studies completed du
 | **Case Study 7** | Comprehensive Registration Form Validator | Advanced form validation, regex constraints, DOM error handling | [Files Folder](./Experiment%207/case%20study%207) | *Pending* |
 | **Experiment 8** | Access & Validate Form Fields Using Regex | Regex validation, live input checks, gym admission form | [Files Folder](./Experiment%208/experiment%208) | *Pending* |
 | **Case Study 8** | Gym Admission Registration Form | Form validation, regex patterns, event handling | [Files Folder](./Experiment%208/case%20study%208) | *Pending* |
+| **Experiment 9** | Web Storage API (Local & Session Storage) | `localStorage`, `sessionStorage`, theme persistence | [Files Folder](./Experiment%209/experiment%209) | *Pending* |
+| **Case Study 9** | Interactive Schedule Planner with Persistent Storage | Table DOM events, session caching, local storage sync | [Files Folder](./Experiment%209/case%20study%209) | *Pending* |
 
 ---
 
@@ -129,6 +131,15 @@ A structured compilation of JavaScript experiments and case studies completed du
   * Dynamically providing visual feedback (error states, green valid cues, and warning tooltips).
 * **Associated Case Study:**
   * Design a registration form for gym admission and use the appropriate form validation and events of JavaScript.
+
+### 📂 [Experiment 9: Web Storage API (Theme Preferences & Schedule Planner)](./Experiment%209/experiment%209)
+* **Goal:** Implement `localStorage` and `sessionStorage` to save user preferences like theme settings.
+* **Core Learnings:**
+  * Storing, reading, and clearing key-value data with `localStorage.setItem()`, `getItem()`, and `removeItem()`.
+  * Preserving session state and recent selections using `sessionStorage`.
+  * Implementing live theme toggles (Dark / Light mode) with persistent state across browser reloads.
+* **Associated Case Study:**
+  * Create a schedule planner for a given table and show the alert box in click event with session details and persistent storage.
 
 ---
 
@@ -228,6 +239,16 @@ Javascript-Lab/
 │       ├── Case Study 8.html
 │       ├── Case Study 8.css
 │       └── Case Study 8.js
+│
+├── Experiment 9/
+│   ├── experiment 9/                       # Theme preferences web storage files
+│   │   ├── Experiment 9.html
+│   │   ├── Experiment 9.css
+│   │   └── Experiment 9.js
+│   └── case study 9/                       # Interactive schedule planner storage files
+│       ├── Case Study 9.html
+│       ├── Case Study 9.css
+│       └── Case Study 9.js
 │
 └── assets/                                 # Shared multimedia graphics
     ├── earbuds.png
