@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form for Gym Admission - Case Study 8</title>
+    <link rel="stylesheet" href="Case Study 8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Gym Admission Form</h2>
+
+        <form id="gymForm">
+            <table class="table-form">
+                <thead>
+                    <tr>
+                        <th style="width: 38%;">Name</th>
+                        <th style="width: 62%;">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="label-cell">Name</td>
+                        <td class="value-cell">
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+                            <div class="error-msg" id="nameError"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">Sex</td>
+                        <td class="value-cell">
+                            <div class="radio-group">
+                                <label class="radio-item">
+                                    <input type="radio" name="sex" value="Male"> Male
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="sex" value="Female"> Female
+                                </label>
+                            </div>
+                            <div class="error-msg" id="sexError"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">Eye color</td>
+                        <td class="value-cell">
+                            <select id="eyeColor" name="eyeColor">
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                                <option value="brown">brown</option>
+                                <option value="black">black</option>
+                                <option value="hazel">hazel</option>
+                            </select>
+                            <div class="error-msg" id="eyeColorError"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label-cell">Check all that apply</td>
+                        <td class="value-cell">
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" id="over6Feet" value="Over 6 feet tall"> Over 6 feet tall
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" id="over200Pounds" value="Over 200 pounds"> Over 200 pounds
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="full-row-header">Describe your athletic ability:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="textarea-cell">
+                            <textarea id="ability" rows="5" placeholder="Enter details about your athletic ability..."></textarea>
+                            <div class="error-msg" id="abilityError"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="action-row">
+                            <button type="submit" id="submitBtn">Enter my information</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="resultCard" class="summary-card"></div>
+        </form>
+
+        <footer>
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Case Study 8.js"></script>
+</body>
+</html>
