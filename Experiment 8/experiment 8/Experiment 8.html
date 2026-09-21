@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Admission Form</title>
+    <link rel="stylesheet" href="Experiment 8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Gym Admission Form</h2>
+
+        <form id="gymForm">
+            <div class="mandatory-note">*Mandatory to fill</div>
+
+            <div class="form-row">
+                <label for="name">Full Name:</label>
+                <div class="input-container">
+                    <input type="text" id="name" placeholder="Enter your full name">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="nameError"></div>
+
+            <div class="form-row">
+                <label for="age">Age:</label>
+                <div class="input-container">
+                    <input type="number" id="age" placeholder="Enter age (16-60)">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="ageError"></div>
+
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Enter email address">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="emailError"></div>
+
+            <div class="form-row">
+                <label for="mobile">Mobile Number:</label>
+                <div class="input-container">
+                    <input type="text" id="mobile" placeholder="Enter 10-digit mobile number">
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="mobileError"></div>
+
+            <div class="form-row">
+                <label for="plan">Membership Plan:</label>
+                <div class="input-container">
+                    <select id="plan">
+                        <option value="">Select Plan</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="Yearly">Yearly</option>
+                    </select>
+                    <span class="required-star">*</span>
+                </div>
+            </div>
+            <div class="error-msg" id="planError"></div>
+
+            <div class="button-row">
+                <button type="submit" id="submitBtn">Submit</button>
+            </div>
+
+            <div id="result" class="success-msg"></div>
+        </form>
+
+        <footer style="text-align: center; margin-top: 30px; font-size: 14px; color: gray; border-top: 1px solid lightgray; padding-top: 15px;">
+            Made by Dhanish Ladwani PRN - 24070521020
+        </footer>
+    </div>
+
+    <script src="Experiment 8.js"></script>
+</body>
+</html>
