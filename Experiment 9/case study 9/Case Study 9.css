@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    padding: 35px 30px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #555;
+    background-color: #ffffff;
+}
+
+.schedule-table th,
+.schedule-table td {
+    border: 1px solid #777;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.th-main {
+    background-color: #e8ecf2;
+    font-weight: 700;
+    color: #1a237e;
+}
+
+.th-sub {
+    background-color: #f1f4f8;
+    font-weight: 600;
+    color: #333;
+}
+
+.day-cell {
+    background-color: #f7f9fc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.day-cell:hover {
+    background-color: #e3edf9;
+}
+
+.topic-cell {
+    background-color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.topic-cell:hover {
+    background-color: #f0f4ff;
+}
+
+.slot-yellow {
+    background-color: #fff9c4;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.slot-yellow:hover {
+    filter: brightness(0.92);
+}
+
+.slot-purple {
+    background-color: #c5cae9;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.slot-purple:hover {
+    filter: brightness(0.92);
+}
+
+.slot-lightgreen {
+    background-color: #c8e6c9;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.slot-lightgreen:hover {
+    filter: brightness(0.92);
+}
+
+.edit-panel {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+}
